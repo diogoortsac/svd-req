@@ -5,7 +5,7 @@
 
 :root {
     /* Primary */
-    --lilac: rgb(205, 180, 219);
+    --lilac: #cdb4db;
     --pink-soft: #FFC8DD;
     --pink-strong: #FFAFCC;
     --blue-soft: #BDE0FE;
@@ -30,6 +30,7 @@ body {
     overflow: hidden;
     height: 100vh;
     padding-top: 200px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.5) 0%, rgba(148, 187, 233, 0.5) 100%);
 }
 
 .flower-container {
@@ -155,6 +156,10 @@ body {
 .header-container {
     background-color: var(--pink-strong);
     border-radius: 20px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.39);
 }
 
 .header-1 {
