@@ -38,7 +38,24 @@ body {
     width: 200px;
 }
 
-.flower-container:nth-child(1) {}
+.flower-container:nth-child(5) {
+    transform: rotate(90deg);
+}
+
+.flower-container:nth-child(2) {
+    transform: rotate(180deg);
+    top: 0;
+}
+
+.flower-container:nth-child(3) {
+    transform: rotate(270deg);
+    top: 0;
+    right: 8px;
+}
+
+.flower-container:nth-child(4) {
+    right: 8px;
+}
 
 .cflower {
     position: relative;
@@ -134,6 +151,7 @@ body {
 .pulse {
     animation: pulse 2s infinite;
 }
+
 .header-container {
     background-color: var(--pink-strong);
     border-radius: 20px;
